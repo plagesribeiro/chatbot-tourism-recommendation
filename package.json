@@ -1,0 +1,16 @@
+{
+    "main": "function.js",
+    "scripts": {
+        "start": "node index.js",
+        "start:firebase": "firebase functions:shell --project default",
+        "deploy": "firebase deploy --only functions"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "cheerio": "^1.0.0-rc.12",
+        "openai": "^3.2.1",
+        "firebase-functions": "^4.4.0",
+        "xml2js": "^0.5.0"
+    },
+    "type": "module"
+}

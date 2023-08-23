@@ -1,0 +1,6 @@
+{
+    "projects": {
+        "default": "maps-nlp",
+        "production": "maps-nlp"
+    }
+}
